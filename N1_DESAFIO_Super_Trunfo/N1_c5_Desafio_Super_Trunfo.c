@@ -17,19 +17,20 @@ int main(){
 
   */
 
-    char estado, cidade, codigo[50];
+
+    char estado[50], cidade[50], codigo[7];
     int populacao, turisticos;
     float area, PIB;
 
 
     printf("Digite seu Estado: \n");
-    scanf("%s", &estado);
+    scanf("%s", estado);
 
     printf("Digite sua Cidade: \n");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
 
     printf("Crie seu código com o UF de seu estado + DDD de sua cidade: \n");
-    scanf("%s", &codigo);
+    scanf("%s", codigo);
 
     printf("Digite a população de sua cidade: \n");
     scanf("%d", &populacao);
@@ -55,8 +56,7 @@ int main(){
 
     return 0;
 
-    
- /*
+/*
     printf("%formato1 %formato2 %formato3", variavel1, variavel2. variavel3)
 
    %d: Imprime um inteiro no formato decimal.
@@ -69,4 +69,4 @@ int main(){
    */
 
 
-
+}
